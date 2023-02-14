@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Lato:wght@300&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">  
+  <title>Calculadora IFPR</title>
+</head>
+<body>
+    <img src="data:image/png;base64,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" alt="">
+    <section id="calculator">
+        <form action="" onsubmit="calculate(event)"> <!-- Vai acionar a função no quando houver envio do formulário -->
+            <span id="display"></span>
+
+            <article id="buttonsGrid">
+                <div id="numbersGrid"> <!--Inserção dos botões. Botão inativo para adicionar futuramente calculo de raiz quadrada-->
+                      <button type="button" class="operatorButton" onclick="erase()"> C </button>
+                      <button type="button" class="operatorButton" onclick="addOperator('Inativo')"> Inativo</button>
+                      <button type="button" class="operatorButton" onclick="addOperator('^')"> Expo </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('7')"> 7 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('8')"> 8 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('9')"> 9 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('4')"> 4 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('5')"> 5 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('6')"> 6 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('1')"> 1 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('2')"> 2 </button>
+                      <button type="button" class="numbersButton" onclick="addNumber('3')"> 3 </button>
+                      <button type="button" class="operatorButtonOff"></button>
+                      <button type="button" class="numbersButton" onclick="addNumber('0')"> 0 </button>
+                      <button type="button" class="operatorButtonOff"></button>
+
+                </div>
+
+                <div id="operatorsGrid">
+                      <button type="button" class="operatorButton" onclick="addOperator('/')"> / </button>
+                      <button type="button" class="operatorButton" onclick="addOperator('*')"> x </button>
+                      <button type="button" class="operatorButton" onclick="addOperator('-')"> - </button>
+                      <button type="button" class="operatorButton" onclick="addOperator('+')"> + </button>
+                      <button type="submit" class="operatorButton" onclick="calculate()"> = </button>
+                </div>
+            </article>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
